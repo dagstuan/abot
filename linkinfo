@@ -1,0 +1,6 @@
+Changes to add more information about links being crawled in addition to urls.
+
+This was needed for my project in order to know more about the links im crawling,
+I currently need to know both the link text for the url being crawled, and whether or not it's
+an image. I have modified the hyperlinkparser to allow a list of objects being returned from
+the hyperlinkparser, instead of just a single url.
